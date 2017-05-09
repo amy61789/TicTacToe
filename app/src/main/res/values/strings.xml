@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="new_game">New Game</string>
+    <string name="box1" />
+    <string name="box2" />
+    <string name="box3" />
+    <string name="box4" />
+    <string name="box5" />
+    <string name="box6" />
+    <string name="box7" />
+    <string name="box8" />
+    <string name="box9" />
+    <string name="user_message" />
+</resources>

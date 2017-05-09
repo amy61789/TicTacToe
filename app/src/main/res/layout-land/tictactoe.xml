@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:padding="25dp"
+    android:screenOrientation="sensor"
+    android:stretchColumns="3"
+    android:id="@+id/tableLayout"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/box1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/box2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/box2"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/box3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/box3"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/box4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/box4"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/box5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/box5"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/box6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/box6"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/box7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/box7"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/box8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/box8"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/box9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="@string/box9"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </TableRow>
+
+</TableLayout>
+
+    <Button
+        android:id="@+id/newGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:text="@string/new_game"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/tableLayout" />
+
+    <TextView
+        android:id="@+id/userMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/newGame"
+        android:layout_alignStart="@+id/newGame"
+        android:layout_marginBottom="49dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/user_message"
+        android:textAlignment="center" />
+</RelativeLayout>
